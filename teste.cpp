@@ -16,6 +16,7 @@ int main()
         if (arr[i] > max)
         {
             max = arr[i];
+            i = i+2;
         }
     }
     cout << max;
